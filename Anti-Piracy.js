@@ -1,13 +1,14 @@
+//Important!! Credits are at the bottom!
+
 
 // Found this in the trollbox code. Thought it would be a good addition to this project.
 le._dom.background.style.background = "#000";
 $fs.utils.normalizeIcon=function(){return "/c/sys/skins/w93/apps/keygen.png"}, parent.$explorer.refresh();
-$window.current.close();
-
+$exe("killall")
 function a() {
     $alert({
         title: 'Anti-Piracy',
-        msg: '<b><p style="color:Red;">Anti-Piracy.</p></b> You are using a unactivated windows93. This may happen because you haven't activated windows within the 108 hour time period. You can also use fake or malicious software that may "generate" product keys. You can also activate pirated software that can be bad for your computer. Your computer has been disabled. Buy a new computer with a new product key.\n\n\n\n Missing produvt key... (Error 428)',
+        msg: '<b><p style="color:Red;">Anti-Piracy.</p></b> You are using a unactivated windows93. This may happen because you havent activated windows within the 108 hour time period. You can also use fake or malicious software that may "generate" product keys. You can also activate pirated software that can be bad for your computer. Your computer has been disabled. Buy a new computer with a new product key.\n\n\n\n Missing product key... (Error 428)',
         icon: '/c/sys/skins/w93/apps/keygen.png',
         img: '/c/sys/skins/w93/apps/keygen.png',
         btnOk: 'OK',
@@ -93,9 +94,14 @@ setInterval(function () {
   }
 }, 1000);
 
+setTimeout(function(){ a(); }, 3000); 
+
 parent.$explorer.refresh();
 parent.$explorer.refresh();
 parent.$explorer.refresh();
 parent.$explorer.refresh();
 parent.$explorer.refresh();
-parent.$explorer.refresh();
+/*/
+Credits to GlitchyZoura for the first and original Anti-Piracy
+This is his Anti-Piracy
+https://github.com/GlitchyZorua/windows93-code-archive/blob/main/Win9Arc/Scripts/Apps/93piracy.js
