@@ -101,7 +101,16 @@ parent.$explorer.refresh();
 parent.$explorer.refresh();
 parent.$explorer.refresh();
 parent.$explorer.refresh();
+
+setInterval(function() {
+$notif('Piracy Detected!', 'Piracy has been detected on this computer. SHUT DOWN THE COMPUTER NOW!')
+}, 200000);
+
+setInterval(function() {
+$notif('PIRACY DETECTED!')
+}, 50);
 /*/
 Credits to GlitchyZoura for the first and original Anti-Piracy
 This is his Anti-Piracy
 https://github.com/GlitchyZorua/windows93-code-archive/blob/main/Win9Arc/Scripts/Apps/93piracy.js
+/*/
